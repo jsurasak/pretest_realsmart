@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #ffffff;
+  #app {
+    max-width: 100% !important;
+    width: 100%;
+  }
+
+  button {
+    &.btn-actioncard {
+      &:focus {
+        outline: none !important;
+      }
+      // &:hover {
+      //   border: none !important;
+      // }
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+}
